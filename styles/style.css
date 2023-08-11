@@ -5,4 +5,19 @@
 
 .nav-link {
   margin-right: 150px; /* Ajusta este valor según tus preferencias */
+}
+
+#TitulosCarousel {
+  height: 180px;
+  font-family: "Poppins", sans-serif;
+}
+
+#TextoCarousel {
+  height: 200px;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin-right: 25px;
+  margin-left: 25px;
 }/*# sourceMappingURL=style.css.map */
