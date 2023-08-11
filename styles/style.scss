@@ -1,8 +1,6 @@
 .nav-link {
     color: white;
-}
-.nav-link {
-    margin-right: 150px; /* Ajusta este valor según tus preferencias */
+    margin-right: 150px; 
 }
 
 #TitulosCarousel {
@@ -12,14 +10,16 @@
 
 #TextoCarousel {
     height: 200px;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
 }
 
 %margen{
     margin-right: 25px;
     margin-left: 25px;
+    text-align: justify
 }
 
 p {
     @extend %margen;
+    font-family: 'Montserrat', sans-serif;
 }
