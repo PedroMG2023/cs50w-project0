@@ -1,3 +1,8 @@
+@charset "UTF-8";
 .nav-link {
   color: white;
+}
+
+.nav-link {
+  margin-right: 150px; /* Ajusta este valor según tus preferencias */
 }/*# sourceMappingURL=style.css.map */
