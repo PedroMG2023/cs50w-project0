@@ -1,5 +1,6 @@
+$color-nav:white;
 .nav-link {
-    color: white;
+    color: $color-nav;
     margin-right: 150px; 
 }
 
@@ -24,6 +25,54 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+table td {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Curiosidades{
+    font-size: 25px;
+    font-family: 'poppins', sans-serif;
+    margin-left: 40px;
+    .datos{
+        font-size: 15px;
+        font-family: 'montserrat', sans-serif;
+    }
+    
+}
+
 .hr {
     height: -50px;
 }
+
+[href]{
+    color: $color-nav;
+}
+
+//Para el modo oscuro al minimizar la pantalla y que las letras se pongan blancas
+$color-fondo-blanco:black;
+$primary-color:#333;
+$color-fondo-claro: #f0f0f0;
+$color-fondo-oscuro: #555;
+$color-texto-claro: white;
+$color-texto-oscuro: white;
+
+body {
+    transition: background-color 0.1 ease;
+    background-color: white;
+    color: black;
+
+    @media (max-width: 768px) {
+        background-color: $primary-color;
+        color: $color-texto-claro;
+    }
+}
+header {
+    background-color: $color-fondo-claro;
+    padding: 30px;
+    text-align: center;
+
+    @media (max-width: 768px) {
+        background-color: $color-fondo-oscuro;
+    }
+}
+

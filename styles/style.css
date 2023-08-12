@@ -23,6 +23,47 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+table td {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Curiosidades {
+  font-size: 25px;
+  font-family: "poppins", sans-serif;
+  margin-left: 40px;
+}
+.Curiosidades .datos {
+  font-size: 15px;
+  font-family: "montserrat", sans-serif;
+}
+
 .hr {
   height: -50px;
+}
+
+[href] {
+  color: white;
+}
+
+body {
+  transition: background-color 0.1 ease;
+  background-color: white;
+  color: black;
+}
+@media (max-width: 768px) {
+  body {
+    background-color: #333;
+    color: white;
+  }
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 30px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  header {
+    background-color: #555;
+  }
 }/*# sourceMappingURL=style.css.map */
